@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Exercise One",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "jumped\r\nfence",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Exercise Two",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "28",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Exercise Three",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Three[\\s]*[\\w{]*,[\\w]*,[\\w]*,[\\w]*,[\\w}]*[\\s]*5",
+      "comparison": "regex",
+      "timeout": 5,
+      "points": 1
+    },
+    {
+      "name": "Exercise Four",
+      "setup": "",
+      "run": "java src/Main.java",
+      "input": "",
+      "output": "Exercise Four[\\s]*[\\w{]*,[\\w]*,[\\w]*,[\\w]*,[\\w}]*[\\s]*[\\w{]*,[\\w]*,Albert,[\\w]*,[\\w}]*",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
