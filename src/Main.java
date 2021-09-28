@@ -22,9 +22,12 @@ public class Main {
         String[] sentence = {"The", "dog", "jumped", "over", "the", "fence"};
         // Write your code here 👇
 
+        System.out.println(sentence[2]);
+        System.out.println(sentence[5]);
 
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Two");
+
         // Adding up Numbers
         // - Create a statement which adds up every number of the array, assigning
         //   the sum to a new variable.
@@ -34,9 +37,13 @@ public class Main {
         //   just access every index of the array and add up the numbers in one big equation.
         // - Your code should output the following:
         //     28
+
         int[] numbers = {3, 4, 5, 7, 9};
         // Write your code here 👇
 
+        int sum = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4];
+
+        System.out.println(sum);
 
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Three");
@@ -47,6 +54,10 @@ public class Main {
         // - Then Log the length of the array to the console (it should print 5)
         // Write your code here 👇
 
+        String[] colors = {"red", "blue", "purple", "white", "black"};
+
+        displayArray(colors);
+        System.out.println(colors.length);
 
         // ----------------------------------------------------------------------------------------------
         System.out.println("Exercise Four");
@@ -59,6 +70,10 @@ public class Main {
         int index = 2;
         // Write your code here 👇
 
+        names = new String[]{"Behzod", "Nico", "Claire", "Mike", "Chi"};
+        displayArray(names);
+        names[2] = "Albert";
+        displayArray(names);
 
         // ----------------------------------------------------------------------------------------------
     }
