@@ -72,7 +72,7 @@ public class Main {
 
         names = new String[]{"Behzod", "Nico", "Claire", "Mike", "Chi"};
         displayArray(names);
-        names[2] = "Albert";
+        names[index] = "Albert";
         displayArray(names);
 
         // ----------------------------------------------------------------------------------------------
